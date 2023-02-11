@@ -7,6 +7,7 @@ git clone https://github.com/pyenv/pyenv ~/.pyenv
 echo 'When you use bash or zsh, add following rows to your .bashrc or .zshrc'
 echo
 echo '  export PYENV_ROOT="$HOME/.pyenv"'
+echo '  export PATH="$PYENV_ROOT/bin:$PATH"'
 echo '  eval "$(pyenv init -)"'
 
 echo ''
